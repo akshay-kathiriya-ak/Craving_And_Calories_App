@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "214178238106",
+    "firebase_url": "https://admin-craving-and-calories-default-rtdb.firebaseio.com",
+    "project_id": "admin-craving-and-calories",
+    "storage_bucket": "admin-craving-and-calories.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214178238106:android:3514adc19749e3637cd923",
+        "android_client_info": {
+          "package_name": "com.example.admincravingcalories"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214178238106-es3a6ku8umhe9d62eq170ljn8up6vjiv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admincravingcalories",
+            "certificate_hash": "7b974613adaf93c77b2d252027b22ec70af22c52"
+          }
+        },
+        {
+          "client_id": "214178238106-sunu9rhjquc99lc6pjuv5af031lk1li0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChl2OpAeaE2jHIEgSUM6gkvfMsFH3MNEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214178238106-sunu9rhjquc99lc6pjuv5af031lk1li0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214178238106:android:cc79b309a89814d27cd923",
+        "android_client_info": {
+          "package_name": "com.example.cravingcalories"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214178238106-sunu9rhjquc99lc6pjuv5af031lk1li0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChl2OpAeaE2jHIEgSUM6gkvfMsFH3MNEw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214178238106-sunu9rhjquc99lc6pjuv5af031lk1li0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

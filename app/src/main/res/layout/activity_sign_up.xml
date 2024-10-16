@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/welcome_logo" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lato_bold"
+        android:text="Craving &amp; calories"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView4"
+        app:layout_constraintStart_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Deliver Favorite Food"
+        android:textColor="@color/textColor"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/lato_bold"
+        android:text="Sign Up Here"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <EditText
+        android:id="@+id/userNameTextView"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/textfield_shape"
+        android:drawableStart="@drawable/user_icon"
+        android:drawablePadding="15dp"
+        android:elevation="5dp"
+        android:fontFamily="@font/lato_regular"
+        android:hint="UserName"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <EditText
+        android:id="@+id/emailTextView"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/textfield_shape"
+        android:drawableStart="@drawable/mail_icon"
+        android:drawablePadding="15dp"
+        android:elevation="5dp"
+        android:fontFamily="@font/lato_regular"
+        android:hint="E-Mail"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/userNameTextView"
+        app:layout_constraintStart_toStartOf="@+id/userNameTextView"
+        app:layout_constraintTop_toBottomOf="@+id/userNameTextView" />
+
+    <EditText
+        android:id="@+id/passwordNameTextView"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/textfield_shape"
+        android:drawableStart="@drawable/lock_icon"
+        android:drawablePadding="15dp"
+        android:elevation="5dp"
+        android:fontFamily="@font/lato_regular"
+        android:hint="Password"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/emailTextView"
+        app:layout_constraintStart_toStartOf="@+id/emailTextView"
+        app:layout_constraintTop_toBottomOf="@+id/emailTextView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/createAccountbutton"
+        android:layout_width="152dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/green_button"
+        android:fontFamily="@font/yeon_sung"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordNameTextView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/SignInbutton"
+        android:layout_width="152dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/green_button"
+        android:fontFamily="@font/yeon_sung"
+        android:text="LogIn"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/yeon_sung"
+        android:text="Already Have Account?"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="@+id/createAccountbutton"
+        app:layout_constraintStart_toStartOf="@+id/createAccountbutton"
+        app:layout_constraintTop_toBottomOf="@+id/createAccountbutton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
